@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/fondo"
+    tools:context=".AddVehiculo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Agregar Vehiculos"
+            android:textAlignment="center"
+            android:textColor="#770000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3FFFFFF"
+            android:paddingBottom="15dp"
+            android:text="Matricula"
+            android:textColor="#770000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+
+            android:paddingBottom="15dp"
+            android:textColor="#770000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3FFFFFF"
+            android:paddingBottom="15dp"
+            android:text="Marca"
+
+            android:textColor="#770000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingBottom="15dp"
+            android:textColor="#770000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3FFFFFF"
+            android:paddingBottom="15dp"
+            android:text="Modelo"
+            android:textColor="#770000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingBottom="15dp"
+            android:textColor="#770000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnAddVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#68A2A8"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="Agregar"
+            android:textAlignment="center"
+            android:textColor="#FFFF05"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>

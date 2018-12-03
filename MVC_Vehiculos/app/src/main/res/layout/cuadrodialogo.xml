@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtMuestraMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtMuestraMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtMuestraModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCerrarDialogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#68A2A8"
+                android:shadowDx="5"
+                android:shadowDy="1"
+                android:shadowRadius="4"
+                android:text="Cerrar"
+                android:textColor="#FFFF05" />
+
+            <Button
+                android:id="@+id/btnModificarVehiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#68A2A8"
+                android:shadowDx="5"
+                android:shadowDy="1"
+
+                android:shadowRadius="4"
+                android:text="Modificar"
+                android:textColor="#FFFF05" />
+
+            <Button
+                android:id="@+id/btnEliminarVehiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#68A2A8"
+                android:shadowDx="5"
+                android:shadowDy="1"
+
+                android:shadowRadius="4"
+                android:text="Eliminar"
+                android:textColor="#FFFF05" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

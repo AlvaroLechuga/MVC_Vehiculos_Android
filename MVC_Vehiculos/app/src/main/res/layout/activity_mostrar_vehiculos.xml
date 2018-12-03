@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/fondo"
+    tools:context=".MostrarVehiculos">
+
+    <Button
+        android:id="@+id/btnMostrarTodos"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#68A2A8"
+        android:shadowDx="5"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:text="Todos"
+        android:textColor="#FFFF05"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnMostrarPersonalizado"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#68A2A8"
+        android:shadowDx="5"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:text="Filtrar"
+        android:textColor="#FFFF05"
+        android:textSize="30sp" />
+</RelativeLayout>

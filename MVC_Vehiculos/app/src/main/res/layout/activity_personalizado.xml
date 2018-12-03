@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/fondo"
+    tools:context=".Personalizado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBusquedaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#68A2A8"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="Cuadro Texto"
+            android:textAlignment="center"
+            android:textColor="#FFFF05"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnBusquedaLista"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#68A2A8"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="Lista"
+            android:textColor="#FFFF05"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txtBusquedaCuadro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:visibility="invisible" />
+
+        <Spinner
+            android:id="@+id/txtBusquedaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:color/background_light"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnMostrarPersonalizado"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#68A2A8"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="Mostrar"
+            android:textColor="#FFFF05"
+            android:textSize="30sp" />
+    </LinearLayout>
+</RelativeLayout>
